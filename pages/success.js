@@ -23,7 +23,7 @@ export default function Success() {
   return (
     <>
       <Head>
-        <title>🎉 YAAAAAY! 🎉</title>
+        <title>WOUWOUWOUWOUWOWU</title>
       </Head>
       
       <div className="hearts-bg">
@@ -32,12 +32,12 @@ export default function Success() {
       
       <div className="container success-animation">
         <h1 className="title celebration">
-          🎉 YAAAAY! TU ES MA VALENTINE! 🎉
+          WOUWOUWOUWOUWOUWOUWOUWOUWOU
         </h1>
         
         <div className="gif-container">
           <img 
-            src="https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif" 
+            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm5qdWhpMDgwcnp0bjBlOW5sbGhkZWx3bm9kNTluaHVhZTVzNDRwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z7767kGHHQ2s/giphy.gif" 
             alt="Celebration gif"
             width="500"
             height="375"
@@ -50,12 +50,12 @@ export default function Success() {
           marginTop: '30px',
           textShadow: '2px 2px 4px rgba(255, 20, 147, 0.3)'
         }}>
-          Vérifie tes emails pour une surprise ! 💌✨
+          Je t'invite à vérifier ton ptit email 🙂‍↔️
         </p>
         
         <div style={{marginTop: '40px'}}>
           <h2 style={{color: '#ff69b4', fontSize: '24px'}}>
-            Je t'aime mon amoireuse ! 💕💕💕
+            Je t'aime mon amoireuse ❤️
           </h2>
         </div>
       </div>

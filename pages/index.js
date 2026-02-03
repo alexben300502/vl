@@ -12,7 +12,7 @@ export default function Home() {
       localStorage.setItem('userEmail', email)
       router.push('/question')
     } else {
-      alert('Merci de rentrer un email valide mon amour ! 💕')
+      alert('Ba alors mademoiselle c est pas un email valide ça dis donc ')
     }
   }
 
@@ -46,11 +46,11 @@ export default function Home() {
       </div>
       
       <div className="container">
-        <h1 className="title">💕 Bienvenue mon amour 💕</h1>
+        <h1 className="title"> Bienvenue mademoiselle hehe </h1>
         
         <div className="gif-container">
           <img 
-            src="https://media.giphy.com/media/l0HlSJd4dJFGCOHmw/giphy.gif" 
+            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWl3NWdkZ3IwbDRlbTltbDAwbmNhOWNnbmI0Znd4cmc3bTVyMGxiaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L2aeA1xp3nrQho0H0W/giphy.gif" 
             alt="Cute love gif"
             width="300"
             height="225"
@@ -58,21 +58,21 @@ export default function Home() {
         </div>
         
         <p style={{fontSize: '24px', color: '#ff1493', marginBottom: '30px'}}>
-          Entre ton email pour une surprise spéciale ! 💌
+           Veuillez entrer votre email hehe
         </p>
         
         <form onSubmit={handleSubmit}>
           <input
             type="email"
             className="cute-input"
-            placeholder="ton-email@exemple.com 💕"
+            placeholder="tonptitemail@exemple.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
           />
           <br />
           <button type="submit" className="cute-button">
-            Continuer 💖
+            Continuer woula
           </button>
         </form>
       </div>

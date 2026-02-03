@@ -70,7 +70,7 @@ export default function Question() {
       )}
       
       <div className="container">
-        <h1 className="title">💕 Veux-tu être ma Valentine ? 💕</h1>
+        <h1 className="title">💕 Veux-tu être ma Valentine ? 🫣 💕</h1>
         
         <div className="gif-container">
           <img 
