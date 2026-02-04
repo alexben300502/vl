@@ -141,11 +141,15 @@ export default async function handler(req, res) {
   // Configuration du transporteur email
   // Tu devras remplacer ces informations par les tiennes
   const transporter = nodemailer.createTransport({
-    service: 'gmail', // ou autre service
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false, // true pour port 465, false pour port 587
     auth: {
       user: process.env.EMAIL_USER, // ton email
       pass: process.env.EMAIL_PASS, // ton mot de passe d'application
     },
+    connectionTimeout: 10000,
+    socketTimeout: 10000,
   })
 
   try {
